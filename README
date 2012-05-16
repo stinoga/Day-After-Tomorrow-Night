@@ -1,1 +1,3 @@
-This repo is an updated theme for Sublime, based on Chris Kempsons Tomorrow Night Theme.
+This repo is an updated theme for Sublime, based on Chris Kempsons Tomorrow Night Theme. The main upates are currently to JSPs, you will need the corresponding JSP tmLanguage file:
+
+https://github.com/stinoga/java.tmbundle

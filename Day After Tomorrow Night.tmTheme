@@ -55,35 +55,11 @@
 			<key>name</key>
 			<string>Variable, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#CC6666</string>
-			</dict>
-		</dict>
-		<!-- jsp Tags PURPLE -->
-		<dict>
-			<key>name</key>
-			<string>Tag Name</string>
-			<key>scope</key>
-			<string>punctuation.definition.tag.begin.jsp, punctuation.definition.tag.end.jsp, punctuation.section.embedded.jsp, meta.tag.block.jsp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D7B3FA</string>
-			</dict>
-		</dict>
-		<!-- ATG Specific dsp Tags PURPLE -->
-		<dict>
-			<key>name</key>
-			<string>Tag Name</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.dsp, meta.tag.block.dsp, entity.name.tag.dsp, punctuation.definition.tag.begin.dsp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D7B3FA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -99,17 +75,18 @@
 				<string>#DE935F</string>
 			</dict>
 		</dict>
+		<!-- purple namespaces -->
 		<dict>
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, entity.name.tag.namespace.jsp, entity.other.attribute-name.jsp, punctuation.definition.tag.begin.jsp, punctuation.definition.tag.end.jsp</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F0C674</string>
+				<string>#D7B3FA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,24 +113,25 @@
 				<string>#8ABEB7</string>
 			</dict>
 		</dict>
+		<!-- darker purple tags -->
 		<dict>
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, entity.name.tag.jsp</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#81A2BE</string>
+				<string>#D7B3FA</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type, entity.name.tag.css</string>
+			<string>keyword, storage, storage.type, entity.name.tag.css, string.interpolated.el</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
